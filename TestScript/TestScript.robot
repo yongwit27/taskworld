@@ -3,7 +3,7 @@ Resource          ../Resources/Keyword/Taskworld_Keywords.robot
 
 *** Test Cases ***
 QAFlow
-    Open Web Browser    https://enterprise.taskworld.com/login    gc
+    Open Web Browser    https://enterprise.taskworld.com/login
     Login    ${Username}    ${Password}    # User login into system
     Click Web Element    ${HomebtnNewProject}
     Input New Project    fieldName=Sample Project    fieldDescription=This project is created for testing purpose.    radioPrivacySettingsPublic=true    #Create Project
